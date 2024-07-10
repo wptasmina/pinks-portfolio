@@ -162,27 +162,32 @@ a .btn-secendary{
  }
     /* My Current Target  */
 .box {
-    border: 1px solid blue; 
     display: flex;
     justify-content: space-between;align-items: left;
     gap: 24px;
 }
-.card-box {
-    border: 1px solid blue;
+.card-box1 , .card-box2, .card-box3 {
     padding: 40px;
     border-radius: 16px;
+}
+.card-box1{
     background: rgba(255, 76, 30, 0.05);
+}
+.card-box2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-box3{
+    background: rgba(255, 223, 0, 0.05);
 }
 .box-icon img{
     width: 56px;
     height: 56px;
+    margin-bottom: 20px;
 }
 .card-btns {
     color: #0d1321;
     font-size: 16px;
     font-weight: 700;
     text-align: left;
-    border: none;
-    outline: none;
     text-decoration-line: underline;
 }
