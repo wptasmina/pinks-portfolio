@@ -16,7 +16,6 @@ body {
     width: 100%;
     max-width: 85%;
     margin-inline: auto;
-    border: 1px solid red;
 }
 a .btn-prymary , .btn-secendary{
     color: #0D1321;
@@ -31,7 +30,7 @@ a .btn-secendary{
     color: #fff;
     background: #0D1321;
 }
-.title {
+.title , .sub-title {
     color: #0d1321;
     font-size: 32px;
     font-weight: 800;
@@ -62,10 +61,8 @@ a .btn-secendary{
 /* header section Start */
 .header-section {
     background-image: url(/assets/images/hero-bg.png); 
-    border: 1px solid;
 }
 .header-container {
-    /* max-width: 1440px; */
     width: 75%;
     display: flex;
     justify-content: center;
@@ -73,7 +70,6 @@ a .btn-secendary{
     text-align: center;
     flex-direction: column;
     margin: 25px auto 45px auto ;
-    border: 1px solid ;
 }
 .header-container img{
     width: 240px;
@@ -89,14 +85,14 @@ a .btn-secendary{
     padding: 0 70px;
     margin-bottom: 20px;
 }
-.header-desc , .card-desc{
-    color: #0D1321;
+.header-desc , .card-desc , .sub-desc{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 30px;
 }
 .header-desc {
+    color: #0D1321;
     padding: 0 30px;
     text-align: center;
 }
@@ -122,11 +118,12 @@ a .btn-secendary{
 .card-title {
     color: #0D1321B3;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 15px;
     text-align: left;
 }
 .card-desc {
+    color: #0D1321;
     align-items: left;
 }
 .card-image img{
@@ -161,28 +158,38 @@ a .btn-secendary{
     margin: 0 auto; 
  }
     /* My Current Target  */
-.box {
+.target{
+    background-color: #fff;
+}
+.box-container{
     display: flex;
-    justify-content: space-between;align-items: left;
-    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
 }
-.card-box1 , .card-box2, .card-box3 {
+/* .box {
+    border: 1px solid red;
+} */
+.box-item{
     padding: 40px;
+}
+.card1{
     border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
 }
-.card-box1{
-    background: rgba(255, 76, 30, 0.05);
+.card2{
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
 }
-.card-box2{
-    background: rgba(0, 76, 232, 0.05);
+.card3{
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
 }
-.card-box3{
-    background: rgba(255, 223, 0, 0.05);
-}
-.box-icon img{
+.box-container  img{
     width: 56px;
     height: 56px;
     margin-bottom: 20px;
+    border: 1px solid blue;
 }
 .card-btns {
     color: #0d1321;
@@ -190,4 +197,74 @@ a .btn-secendary{
     font-weight: 700;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* <!-- supportt section Start -->  */
+.submit-box {
+    border: 1px solid blueviolet;
+    padding: 64px 48px;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(/assets/images/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 100%;
+    height: 430px;
+}
+.submit-box-text{
+    margin-bottom: 120px;
+}
+.sub-title {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+.sub-desc {
+    color: #fff;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.input-box input{
+    width: 530px;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 20px 25px;  
+ }
+.input-box button{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px;
+    border-radius: 8px;
+    background: #fff;
+    color: #0D1321;
+    border: none;
+    outline: none;
+}
+.input-text {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+/* footer section start  */
+.copy-madia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+.copy p{
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.madia a{
+    text-decoration: none;
+}
+.madia img{
+    margin-left: 10px;
 }
