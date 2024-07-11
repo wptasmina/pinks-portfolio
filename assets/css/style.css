@@ -238,12 +238,7 @@ img {
 }
 /* <!-- supportt section Start -->  */
 .submit-box {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url(../images/handshake.jpg);
+  background-image: url(../images/handshake.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
