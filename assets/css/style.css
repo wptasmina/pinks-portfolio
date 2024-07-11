@@ -149,7 +149,7 @@ img {
   align-items: left;
 }
 .card img {
-  width: 200px;
+  width: 180px;
   height: 180px;
 }
 .btn {
@@ -240,7 +240,7 @@ img {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.9)), url(../images/handshake.jpg) ;
+      rgba(0, 0, 0, 0.9)), url(../images/handshake.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 16px;
