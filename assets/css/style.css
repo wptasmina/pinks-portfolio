@@ -67,7 +67,8 @@ img {
   background: rgba(13, 19, 33, 0.02);
 }
 .header-section {
-  background-image: url(/assets/images/hero-bg.png);
+  /* background-image: url(/assets/images/hero-bg.png); */
+  background: url(../images/hero-bg.png);
 }
 .header-container {
   width: 75%;
@@ -184,6 +185,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   margin-bottom: 100px;
 }
